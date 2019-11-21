@@ -1,0 +1,92 @@
+{
+    "title": "<#书名#>",
+    "author": "<#作者#>",
+    "description": "<#简介#>",
+    "language": "zh-hans",
+    "gitbook": "<#出版号#>",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "iTboyer": "http://huos3203.github.io"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+        
+        "autocover"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/huos3203"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "huos3203",
+                "repo": "___VARIABLE_bundleIdentifier___",
+                "type": "star",
+                "size": "small",
+                "count": true
+            }
+            ]
+        },
+        "donate": {
+            "alipay": "./source/images/donate.png",
+            "title": "",
+            "button": "赞赏",
+            "alipayText": " "
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "autocover": {
+            <#封面属性#>
+        },
+        "favicon":{
+            "shortcut": "./source/images/favicon.png",
+            "bookmark": "./source/images/favicon.png",
+            "appleTouch": "./source/images/apple-touch-icon.jpg",
+            "appleTouchMore": {
+                "120x120": "./source/images/apple-touch-icon.jpg",
+                "180x180": "./source/images/apple-touch-icon.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>hsg.iBooks.gitBook</string>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>Xcode创建gitbook项目</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Definitions</key>
+	<dict>
+		<key>../book.json</key>
+		<dict>
+			<key>Path</key>
+			<string>book.json</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+		</dict>
+		<key>../source</key>
+		<dict>
+			<key>Path</key>
+			<string>source</string>
+			<key>SortOrder</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>../book.json</string>
+		<string>../source</string>
+	</array>
+</dict>
+</plist>
