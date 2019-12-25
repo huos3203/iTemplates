@@ -14,7 +14,7 @@ message: 欢迎光顾，输入码阅读
 top: <#置顶排序#>  
 ---
 <!--github库卡片-->
-{% github huos3203 <#库名#> <#哈希值#> width = 30% %}
+{% github it-boyer <#库名#> <#哈希值#> width = 30% %}
 
 <!--音乐欣赏--> 
 {% aplayer "<#歌曲名#>" "<#歌手名#>" "/images/<#音频文件名#>" "/images/<#封面图#>.png" "autoplay" "width:70%"%}
